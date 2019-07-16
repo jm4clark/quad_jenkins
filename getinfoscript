@@ -1,0 +1,9 @@
+for ((n=0; n<100; n++))
+do
+clear
+kubectl get services
+echo " "
+kubectl get pods
+echo " "
+sleep 3
+done
